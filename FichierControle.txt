@@ -1,0 +1,10 @@
+LOAD DATA 
+CHARACTERSET UTF8
+INFILE 'tuples.csv'
+APPEND
+INTO TABLE Population
+FIELDS TERMINATED BY ','  
+(codeinsee, annee,valpopulation)
+
+
+
